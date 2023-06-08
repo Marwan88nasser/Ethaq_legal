@@ -545,6 +545,7 @@ input:focus::placeholder {
 @media (max-width: 991.98px) {
   .service .content {
     text-align: center;
+    align-items: center;
   }
   .service .content .img {
     margin: 0 auto;
