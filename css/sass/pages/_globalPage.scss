@@ -1,0 +1,46 @@
+* {
+  @include reset-all;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  font-family: "Cairo", sans-serif;
+  font-size: 14px;
+  color: $main-text-color;
+}
+// reset Ul
+ul {
+  @include reset-ul;
+}
+// reset Link
+a {
+  @include a-reset;
+}
+// reset btn
+button {
+  border: none;
+  outline: none;
+}
+// Reset Input
+input:focus,
+select:focus {
+  outline: none;
+}
+// custom Input
+input {
+  direction: rtl !important;
+  &:focus::placeholder {
+    opacity: 0;
+    transition: $sm-transition;
+  }
+}
+
+.bar-icon {
+  text-align: center;
+  margin-bottom: 30px;
+  i,svg {
+    font-size: 21px;
+  }
+}
