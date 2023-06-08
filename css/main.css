@@ -429,15 +429,11 @@ input:focus::placeholder {
   background-color: #ff8934;
 }
 .service .oval .img {
-  width: 230px;
+  width: 490px;
   height: auto;
-  transform: translateX(-15%);
 }
 .service .oval.ltr {
   margin-right: auto;
-}
-.service .oval.ltr .img {
-  transform: translateX(15%);
 }
 .service .oval .badge-gold {
   background: #ffffff;
@@ -457,7 +453,7 @@ input:focus::placeholder {
   z-index: 2;
   position: absolute;
   left: -14%;
-  top: 6%;
+  top: 24%;
 }
 .service .oval .badge-gold .img {
   width: 36px;
@@ -467,22 +463,22 @@ input:focus::placeholder {
   position: absolute;
   width: 60px;
   height: auto;
-  top: -14%;
+  top: 3%;
   left: -6%;
 }
 .service .oval .gold-layer-2 {
   position: absolute;
   width: 30px;
   height: auto;
-  top: 2%;
-  left: -15%;
+  top: 21%;
+  left: -17%;
   opacity: 0.4;
 }
 .service .oval .gold-layer-3 {
   position: absolute;
   width: 44px;
   height: auto;
-  top: -9%;
+  top: 8%;
   left: -28%;
   opacity: 0.8;
 }
@@ -490,15 +486,15 @@ input:focus::placeholder {
   position: absolute;
   width: 24px;
   height: auto;
-  top: 8%;
-  left: -31%;
+  top: 34%;
+  left: -23%;
   opacity: 0.3;
 }
 .service .oval .gold-layer-5 {
   position: absolute;
   width: 34px;
   height: auto;
-  top: 22%;
+  top: 40%;
   left: -13%;
   opacity: 0.5;
 }
@@ -508,7 +504,7 @@ input:focus::placeholder {
     height: 300px;
   }
   .service .oval .img {
-    width: 150px;
+    width: 350px;
   }
 }
 @media (max-width: 767.98px) {
